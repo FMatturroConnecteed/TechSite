@@ -166,5 +166,33 @@ export const motorcycles = [
       "Assisted Slipper Clutch",
       "Sport Riding Position"
     ]
-  }
+  },
+  {
+    id: 7,
+    name: "Suzuki GSX-S1000",
+    category: "Sport",
+    price: "€13.490",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAaoC58ESGs8QI_4Za_tfDV1chF6d1LlCXxA&s",
+    images: [
+      "https://www.quinzimoto.com/wp-content/uploads/2021/12/01-BLU-MIAMI-1-scaled.jpg",
+      "https://moto.suzuki.fr/wp-content/uploads/module360/GSX-S1000_2022/color1/08.jpg",
+      "https://img.stcrm.it/images/36360036/HOR_STD/800x/01-1-_risultato-jpg.jpg"
+    ],
+    description: "La Suzuki GSX-S1000 è una naked sportiva da 999 cc, caratterizzata da un motore 4 cilindri in linea derivato dalla GSX-R1000, che eroga 152 CV e 106 Nm di coppia. Aggiornata alle normative Euro 5+, si distingue per un design aggressivo con luci a LED, elettronica avanzata, freni Brembo e una ciclistica maneggevole, ideale per un uso sportivo stradale.",
+    specs: {
+      engine: "649 cc Inline-4",
+      power: "95 CV",
+      torque: "130 Nm",
+      weight: "208 kg",
+      topSpeed: "300 km/h"
+    },
+    features: [
+      "Honda Selectable Torque Control",
+      "ABS",
+      "LED Lighting",
+      "LCD Display",
+      "Assisted Slipper Clutch",
+      "Sport Riding Position"
+    ]
+  },
 ];
