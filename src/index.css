@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-motor-white text-motor-black font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-motor-black text-motor-white px-6 py-3 rounded-xl hover:bg-motor-gray transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply border border-motor-black text-motor-black px-6 py-3 rounded-xl hover:bg-motor-black hover:text-motor-white transition-colors duration-200;
+  }
+  
+  .card {
+    @apply bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-200;
+  }
+}
