@@ -8,6 +8,10 @@ import CatalogPage from './pages/CatalogPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import MotorcycleDetailPage from './pages/MotorcycleDetailPage';
+import NuoviArriviPage from './pages/NuoviArriviPage';
+import PromozioniPage from './pages/PromozioniPage';
+import ServiziPage from './pages/ServiziPage';
+import FinanziamentoPage from './pages/FinanziamentoPage';
 
 function ScrollToTop() {
   const location = useLocation();
@@ -33,6 +37,10 @@ function App() {
               <Route path="/about" element={<AboutPage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/motorcycle/:id" element={<MotorcycleDetailPage />} />
+              <Route path="/nuovi-arrivi" element={<NuoviArriviPage />} />
+              <Route path="/promozioni" element={<PromozioniPage />} />
+              <Route path="/servizi" element={<ServiziPage />} />
+              <Route path="/finanziamento" element={<FinanziamentoPage />} />
             </Routes>
           </main>
           <Footer />
