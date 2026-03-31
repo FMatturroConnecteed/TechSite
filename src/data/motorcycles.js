@@ -170,7 +170,7 @@ export const motorcycles = [
   {
     id: 7,
     name: "Suzuki GSX-S1000",
-    category: "Sport",
+    category: "Naked",
     price: "€13.490",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAaoC58ESGs8QI_4Za_tfDV1chF6d1LlCXxA&s",
     images: [
@@ -193,6 +193,62 @@ export const motorcycles = [
       "LCD Display",
       "Assisted Slipper Clutch",
       "Sport Riding Position"
+    ]
+  },
+  {
+    id: 8,
+    name: "KTM 1390 Super Duke R EVO",
+    category: "Naked",
+    price: "€22.500",
+    image: "https://azwecdnepstoragewebsiteuploads.azureedge.net/PHO_BIKE_DET_my24-ktm-sd-evo-action-5_%23SALL_%23AEPI_%23V1.jpg",
+    images: [
+      "https://azwecdnepstoragewebsiteuploads.azureedge.net/PHO_BIKE_90_RE_KTM-naked-bikes-1390-super-duker-evo-2025-studio-image-right-side-view_%23SALL_%23AEPI_%23V1.png",
+      "https://azwecdnepstoragewebsiteuploads.azureedge.net/PHO_BIKE_90_LI_MY24-KTM-1390-SUPER-DUKE-R-EVO-ORANGE-EU-90-Left-Studio_%23SALL_%23AEPI_%23V1.png",
+      "https://azwecdnepstoragewebsiteuploads.azureedge.net/PHO_BIKE_90_LIVO_MY24-KTM-1390-SUPER-DUKE-R-EVO-ORANGE-EU-90-Front-Left-Studio_%23SALL_%23AEPI_%23V1.png"
+    ],
+    description: "La KTM 1390 SUPER DUKE R EVO è una BEAST davvero evoluta. Non solo condivide gli stessi sviluppi della nuovissima KTM 1390 SUPER DUKE R, ma valorizza anche la tecnologia delle sospensioni WP semi-attive (SAT). In grado di adattare automaticamente le sospensioni agli input del pilota o alle condizioni del fondo stradale, porta la sua tecnologia sia sull'asfalto che sullo sterrato.",
+    specs: {
+      engine: "1350 cc V 75°",
+      power: "190 CV",
+      torque: "145 Nm",
+      weight: "208 kg",
+      topSpeed: "350 km/h"
+    },
+    features: [
+      "ABS",
+      "LED lights",
+      "Traction controls",
+      "LCD Display",
+      "Regolable suspenction",
+      "Kustom package"
+    ]
+  },
+  {
+    id: 9,
+    name: "Triumph Tiger 900 Alpine Edition",
+    category: "Adventure",
+    price: "€17.350",
+    image: "https://media.triumphmotorcycles.co.uk/image/upload/t_/c_limit,w_750/f_auto/q_auto:eco/v1709564443/Tiger%201200_Rally%20Pro_MY22_G0I5611_ML_lfwo6o?_a=BAVAZGDW0",
+    images: [
+      "https://media.triumphmotorcycles.co.uk/image/upload/t_triumph_square/c_limit,w_1920/f_auto/q_auto:eco/v1761901366/Tiger_900_Alpine_Edition_MY26_CW4I0068_GE_g0fccl?_a=BAVAZGDW0",
+      "https://media.triumphmotorcycles.co.uk/image/upload/t_triumph_square/c_limit,w_1920/f_auto/q_auto:eco/v1761901332/Tiger_900_Alpine_Edition_MY26_CW4I9378_GE_grwpw4?_a=BAVAZGDW0",
+      "https://media.triumphmotorcycles.co.uk/image/upload/t_triumph_square/c_limit,w_1920/f_auto/q_auto:eco/v1761901329/Tiger_900_Alpine_Edition_MY26_CW4I8860_GE_ibttgk?_a=BAVAZGDW0"
+    ],
+    description: "La Triumph Tiger 900 è un'adventure bike versatile e potente, equipaggiata con un motore tre cilindri in linea da 888 cc da 108 CV (aggiornamento 2024), caratterizzato dall'albero motore T-Plane per un'ottima coppia ai bassi regimi. Disponibile nelle varianti GT (stradale con ruote in lega) e Rally (fuoristrada con ruote a raggi), offre tecnologia avanzata (display TFT, ABS cornering) e comfort elevato per i lunghi viaggi.",
+    specs: {
+      engine: "888 cc",
+      power: "108 CV (79.5 kW) a 9.500 giri/min.",
+      torque: "90 Nm",
+      weight: "224 kg",
+      topSpeed: "270 km/h"
+    },
+    features: [
+      "ABS",
+      "LED lights",
+      "Traction controls",
+      "LCD Display",
+      "Regolable suspenction",
+      "Adventure package"
     ]
   },
 ];
