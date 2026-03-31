@@ -88,11 +88,11 @@ const LoginModal = ({ isOpen, onClose }) => {
           </button>
         </form>
         
-        <div className="mt-4 text-center text-sm text-gray-600">
+        {/* <div className="mt-4 text-center text-sm text-gray-600">
           <p>Utenti disponibili:</p>
           <p>Admin: admin@email.com / password123</p>
           <p>Laura: laura.bianchi@email.com / password456</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
